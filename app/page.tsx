@@ -135,6 +135,42 @@ export default function Home() {
       
       <div className="p-6 rounded shadow bg-neutral-900 flex flex-col gap-4 mt-6">
         <h2 className="font-semibold text-lg">
+          Search Verses
+        </h2>
+        <h3 className="font-[500] text-neutral-300">Request</h3>
+        <RequestBlock url="/api/search?q={query}&limit={limit}&deep={deep}&translation={shortName}" method="GET" />
+        <h3 className="font-[500] text-neutral-300">Query Parameters</h3>
+        <ul className="apply-code pl-4">
+          <li className="list-disc"><code>q</code> (required): search query string (supports multiple keywords)</li>
+          <li className="list-disc"><code>limit</code> (optional): max number of results (default: 20, max: 100)</li>
+          <li className="list-disc"><code>deep</code> (optional): use full translation data (default: false)</li>
+          <li className="list-disc"><code>translation</code> (optional): filter results to a specific translation shortName. If the matching verse is found in another translation, the returned text will be from this translation if available</li>
+        </ul>
+        <h3 className="font-[500] text-neutral-300">Response</h3>
+        <CodeBlock
+          text={`{
+  "status": 200,
+  "data": [
+    {
+      "indices": [0, 0, 0],
+      "text": "In the beginning God created the heaven and the earth.",
+      "translation": "KJV"
+    }
+  ]
+}
+`}
+        />
+        <h3 className="font-[500] text-neutral-300">Where</h3>
+        <ul className="apply-code pl-4">
+          <li className="list-disc"><code>indices</code> array of [bookIndex, chapterIndex, verseIndex]</li>
+          <li className="list-disc"><code>text</code> the verse text content</li>
+          <li className="list-disc"><code>translation</code> the translation shortName</li>
+        </ul>
+      </div>
+
+      
+      <div className="p-6 rounded shadow bg-neutral-900 flex flex-col gap-4 mt-6">
+        <h2 className="font-semibold text-lg">
           Array of Bible books in details
         </h2>
         <Suspense>

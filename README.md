@@ -1,4 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Free Bible API
+
+A fast, free, and open-source Bible API that provides access to the Bible in multiple translations.
+
+## Features
+
+- **Multiple Translations**: Supports 23 different Bible translations
+- **Complete Coverage**: All 66 books of the Protestant Bible
+- **Simple API**: Easy-to-use RESTful API
+- **Fast**: Built with Next.js for optimal performance
+
+## Available Translations
+
+The API includes the following translations:
+
+| Translation                       | Short Name | Language | Size   |
+| --------------------------------- | ---------- | -------- | ------ |
+| American King James Version       | AKJV       | en_us    | 1.8 MB |
+| American Standard Version         | ASV        | en_us    | 1.9 MB |
+| Amplified Bible (Classic Edition) | AMP        | en_us    | 2.3 MB |
+| Basic English                     | BBE        | en_us    | 1.9 MB |
+| Common English Bible              | CEB        | en_us    | 1.9 MB |
+| GOD'S WORD to the Nations         | GodsWord   | en_us    | 1.9 MB |
+| Good News Translation             | GNT        | en_us    | 1.9 MB |
+| Green's Literal Translation       | LITV       | en_us    | 1.9 MB |
+| Holman Christian Standard Bible   | HCSB       | en_us    | 1.9 MB |
+| King James Version                | KJV        | en_gb    | 1.9 MB |
+| Lexham English Bible              | LEB        | en_us    | 1.9 MB |
+| New American Standard Bible       | NASB       | en_us    | 1.9 MB |
+| New Century Version               | NCV        | en_us    | 1.9 MB |
+| New Heart English Bible           | NHEB       | en_us    | 1.9 MB |
+| New International Version         | NIV        | en_us    | 1.9 MB |
+| New King James Version            | NKJV       | en_us    | 1.9 MB |
+| New Living Translation            | NLT        | en_us    | 2.0 MB |
+| New Revised Standard Version      | NRSV       | en_us    | 1.9 MB |
+| Revised Standard Version          | RSV        | en_us    | 1.9 MB |
+| The Message Bible                 | MSG        | en_us    | 2.1 MB |
+| Updated King James Version        | UKJV       | en_us    | 1.9 MB |
+| World English Bible               | WEB        | en_us    | 1.9 MB |
+| Young's Literal Translation       | YLT        | en_us    | 1.9 MB |
 
 ## Getting Started
 

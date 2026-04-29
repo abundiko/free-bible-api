@@ -1,6 +1,7 @@
 export const BIBLE_BOOKS = [
   {
     name: "Genesis",
+    shortName: "Gen",
     index: 0,
     chapters: 50,
     firstChapterIndex: 0,
@@ -9,6 +10,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Exodus",
+    shortName: "Exod",
     index: 1,
     chapters: 40,
     firstChapterIndex: 0,
@@ -17,6 +19,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Leviticus",
+    shortName: "Lev",
     index: 2,
     chapters: 27,
     firstChapterIndex: 0,
@@ -25,6 +28,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Numbers",
+    shortName: "Num",
     index: 3,
     chapters: 36,
     firstChapterIndex: 0,
@@ -33,6 +37,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Deuteronomy",
+    shortName: "Deut",
     index: 4,
     chapters: 34,
     firstChapterIndex: 0,
@@ -41,6 +46,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Joshua",
+    shortName: "Josh",
     index: 5,
     chapters: 24,
     firstChapterIndex: 0,
@@ -49,6 +55,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Judges",
+    shortName: "Judg",
     index: 6,
     chapters: 21,
     firstChapterIndex: 0,
@@ -57,6 +64,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Ruth",
+    shortName: "Ruth",
     index: 7,
     chapters: 4,
     firstChapterIndex: 0,
@@ -65,6 +73,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "1 Samuel",
+    shortName: "1Sam",
     index: 8,
     chapters: 31,
     firstChapterIndex: 0,
@@ -73,6 +82,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "2 Samuel",
+    shortName: "2Sam",
     index: 9,
     chapters: 24,
     firstChapterIndex: 0,
@@ -81,6 +91,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "1 Kings",
+    shortName: "1Kgs",
     index: 10,
     chapters: 22,
     firstChapterIndex: 0,
@@ -89,6 +100,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "2 Kings",
+    shortName: "2Kgs",
     index: 11,
     chapters: 25,
     firstChapterIndex: 0,
@@ -97,6 +109,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "1 Chronicles",
+    shortName: "1Chr",
     index: 12,
     chapters: 29,
     firstChapterIndex: 0,
@@ -105,6 +118,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "2 Chronicles",
+    shortName: "2Chr",
     index: 13,
     chapters: 36,
     firstChapterIndex: 0,
@@ -113,6 +127,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Ezra",
+    shortName: "Ezra",
     index: 14,
     chapters: 10,
     firstChapterIndex: 0,
@@ -121,6 +136,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Nehemiah",
+    shortName: "Neh",
     index: 15,
     chapters: 13,
     firstChapterIndex: 0,
@@ -129,6 +145,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Esther",
+    shortName: "Esth",
     index: 16,
     chapters: 10,
     firstChapterIndex: 0,
@@ -137,6 +154,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Job",
+    shortName: "Job",
     index: 17,
     chapters: 42,
     firstChapterIndex: 0,
@@ -145,6 +163,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Psalms",
+    shortName: "Ps",
     index: 18,
     chapters: 150,
     firstChapterIndex: 0,
@@ -153,6 +172,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Proverbs",
+    shortName: "Prov",
     index: 19,
     chapters: 31,
     firstChapterIndex: 0,
@@ -161,6 +181,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Ecclesiastes",
+    shortName: "Eccl",
     index: 20,
     chapters: 12,
     firstChapterIndex: 0,
@@ -169,6 +190,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Song of Solomon",
+    shortName: "Song",
     index: 21,
     chapters: 8,
     firstChapterIndex: 0,
@@ -177,6 +199,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Isaiah",
+    shortName: "Isa",
     index: 22,
     chapters: 66,
     firstChapterIndex: 0,
@@ -185,6 +208,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Jeremiah",
+    shortName: "Jer",
     index: 23,
     chapters: 52,
     firstChapterIndex: 0,
@@ -193,6 +217,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Lamentations",
+    shortName: "Lam",
     index: 24,
     chapters: 5,
     firstChapterIndex: 0,
@@ -201,6 +226,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Ezekiel",
+    shortName: "Ezek",
     index: 25,
     chapters: 48,
     firstChapterIndex: 0,
@@ -209,6 +235,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Daniel",
+    shortName: "Dan",
     index: 26,
     chapters: 12,
     firstChapterIndex: 0,
@@ -217,6 +244,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Hosea",
+    shortName: "Hos",
     index: 27,
     chapters: 14,
     firstChapterIndex: 0,
@@ -225,6 +253,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Joel",
+    shortName: "Joel",
     index: 28,
     chapters: 3,
     firstChapterIndex: 0,
@@ -233,6 +262,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Amos",
+    shortName: "Amos",
     index: 29,
     chapters: 9,
     firstChapterIndex: 0,
@@ -241,6 +271,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Obadiah",
+    shortName: "Obad",
     index: 30,
     chapters: 1,
     firstChapterIndex: 0,
@@ -249,6 +280,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Jonah",
+    shortName: "Jonah",
     index: 31,
     chapters: 4,
     firstChapterIndex: 0,
@@ -257,6 +289,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Micah",
+    shortName: "Mic",
     index: 32,
     chapters: 7,
     firstChapterIndex: 0,
@@ -265,6 +298,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Nahum",
+    shortName: "Nah",
     index: 33,
     chapters: 3,
     firstChapterIndex: 0,
@@ -273,6 +307,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Habakkuk",
+    shortName: "Hab",
     index: 34,
     chapters: 3,
     firstChapterIndex: 0,
@@ -281,6 +316,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Zephaniah",
+    shortName: "Zeph",
     index: 35,
     chapters: 3,
     firstChapterIndex: 0,
@@ -289,6 +325,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Haggai",
+    shortName: "Hag",
     index: 36,
     chapters: 2,
     firstChapterIndex: 0,
@@ -297,6 +334,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Zechariah",
+    shortName: "Zech",
     index: 37,
     chapters: 14,
     firstChapterIndex: 0,
@@ -305,6 +343,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Malachi",
+    shortName: "Mal",
     index: 38,
     chapters: 4,
     firstChapterIndex: 0,
@@ -313,6 +352,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Matthew",
+    shortName: "Matt",
     index: 39,
     chapters: 28,
     firstChapterIndex: 0,
@@ -321,6 +361,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Mark",
+    shortName: "Mark",
     index: 40,
     chapters: 16,
     firstChapterIndex: 0,
@@ -329,6 +370,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Luke",
+    shortName: "Luke",
     index: 41,
     chapters: 24,
     firstChapterIndex: 0,
@@ -337,6 +379,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "John",
+    shortName: "John",
     index: 42,
     chapters: 21,
     firstChapterIndex: 0,
@@ -345,6 +388,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Acts",
+    shortName: "Acts",
     index: 43,
     chapters: 28,
     firstChapterIndex: 0,
@@ -353,6 +397,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Romans",
+    shortName: "Rom",
     index: 44,
     chapters: 16,
     firstChapterIndex: 0,
@@ -361,6 +406,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "1 Corinthians",
+    shortName: "1Cor",
     index: 45,
     chapters: 16,
     firstChapterIndex: 0,
@@ -369,6 +415,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "2 Corinthians",
+    shortName: "2Cor",
     index: 46,
     chapters: 13,
     firstChapterIndex: 0,
@@ -377,6 +424,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Galatians",
+    shortName: "Gal",
     index: 47,
     chapters: 6,
     firstChapterIndex: 0,
@@ -385,6 +433,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Ephesians",
+    shortName: "Eph",
     index: 48,
     chapters: 6,
     firstChapterIndex: 0,
@@ -393,6 +442,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Philippians",
+    shortName: "Phil",
     index: 49,
     chapters: 4,
     firstChapterIndex: 0,
@@ -401,6 +451,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Colossians",
+    shortName: "Col",
     index: 50,
     chapters: 4,
     firstChapterIndex: 0,
@@ -409,6 +460,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "1 Thessalonians",
+    shortName: "1Thess",
     index: 51,
     chapters: 5,
     firstChapterIndex: 0,
@@ -417,6 +469,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "2 Thessalonians",
+    shortName: "2Thess",
     index: 52,
     chapters: 3,
     firstChapterIndex: 0,
@@ -425,6 +478,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "1 Timothy",
+    shortName: "1Tim",
     index: 53,
     chapters: 6,
     firstChapterIndex: 0,
@@ -433,6 +487,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "2 Timothy",
+    shortName: "2Tim",
     index: 54,
     chapters: 4,
     firstChapterIndex: 0,
@@ -441,6 +496,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Titus",
+    shortName: "Titus",
     index: 55,
     chapters: 3,
     firstChapterIndex: 0,
@@ -449,6 +505,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Philemon",
+    shortName: "Phlm",
     index: 56,
     chapters: 1,
     firstChapterIndex: 0,
@@ -457,6 +514,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Hebrews",
+    shortName: "Heb",
     index: 57,
     chapters: 13,
     firstChapterIndex: 0,
@@ -465,6 +523,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "James",
+    shortName: "Jas",
     index: 58,
     chapters: 5,
     firstChapterIndex: 0,
@@ -473,6 +532,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "1 Peter",
+    shortName: "1Pet",
     index: 59,
     chapters: 5,
     firstChapterIndex: 0,
@@ -481,6 +541,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "2 Peter",
+    shortName: "2Pet",
     index: 60,
     chapters: 3,
     firstChapterIndex: 0,
@@ -489,6 +550,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "1 John",
+    shortName: "1John",
     index: 61,
     chapters: 5,
     firstChapterIndex: 0,
@@ -497,6 +559,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "2 John",
+    shortName: "2John",
     index: 62,
     chapters: 1,
     firstChapterIndex: 0,
@@ -505,6 +568,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "3 John",
+    shortName: "3John",
     index: 63,
     chapters: 1,
     firstChapterIndex: 0,
@@ -513,6 +577,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Jude",
+    shortName: "Jude",
     index: 64,
     chapters: 1,
     firstChapterIndex: 0,
@@ -521,6 +586,7 @@ export const BIBLE_BOOKS = [
   },
   {
     name: "Revelation",
+    shortName: "Rev",
     index: 65,
     chapters: 22,
     firstChapterIndex: 0,
